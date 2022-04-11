@@ -223,6 +223,9 @@ main{
   width: 80%;
   background: #C4C4C4;
 }
+#roadmap{
+  width: 20%;
+}
 #footericon{
   width: 26px;
 }
@@ -879,6 +882,7 @@ section {
 }
 .resume sign{
   color: #08244D;
+  font-size: 14px;
 }
 .resume h4 sup {
   font-size: 20px;
@@ -902,6 +906,7 @@ section {
   padding-bottom: 10px;
   word-wrap: break-word; 
   word-break: normal;
+  font-size: 12px;
 }
 .resume ul i {
   color: #2B51A2;
@@ -997,13 +1002,11 @@ section {
 .services .resume-item:nth-child(even) {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #2B51A2;
   position: relative;
 }
 .services .resume-item:nth-child(odd) {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #2B51A2;
   position: relative;
 }
 .services .resume-item h4 {
@@ -1044,6 +1047,8 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #2B51A2;
+  margin-top: 35px;
+  
 }
 
 
@@ -1056,6 +1061,10 @@ section {
   margin-bottom: 20px;
 }
 
+#roadmapbox{
+  text-align: right; 
+  padding-right: 50px;
+}
 
 @media (max-width: 575px) {
   #services h1 {
@@ -1065,6 +1074,12 @@ section {
     color: rgb(0, 0, 0);
     text-shadow: 0.05em 0.05em rgb(255, 255, 255);
     margin-bottom: 15px;
+  }
+  #roadmapbox{
+    text-align: left!important; 
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-left: 2px solid #2B51A2;
   }
 }
 
