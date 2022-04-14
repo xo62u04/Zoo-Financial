@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6 {
   --bs-gutter-x:0;
 }
 
-main{
+/* #bg{
   background: url("../img/full\ version2.png")  top right;
   background-size: cover;
   background-position: top;
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -202,11 +202,12 @@ main{
   margin-top: 50px;
 }
 #zoologo{
-  margin:0 auto;
   width: 10%;
 }
 #wallet{
-  width: 8%;
+  width: 3%;
+  float: right;
+  padding-top: 3%;
 }
 #animals{
   width: 20%;
@@ -230,13 +231,16 @@ main{
 
 @media(max-width: 991px) {
   #zooimg{
-    width: 100%;
+    width: 80%;
   }
   #zoologo{
     width: 30%;
   }
   #wallet{
-    width: 10%;
+    width: 8%;
+    float: right;
+    padding-top: 10%;
+    padding-right: 5px;
   }
   #animals{
     width: 50%;
@@ -475,9 +479,9 @@ main{
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* section {
   padding: 60px 0;
-}
+} */
 
 .section-bg {
   background-color: white;
@@ -746,7 +750,7 @@ section {
  background: url("../img/P2/Rectangle\ 44.png") top right; 
 } */
 #resume{
-  margin: 20px 50px;
+  margin: 20px 0;
 }
 
 /*--------------------------------------------------------------
