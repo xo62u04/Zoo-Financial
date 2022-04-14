@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .navbar li {
-  margin: 20px;
+  margin: 0 20px;
   position: relative;
 }
 .navbar a, .navbar a:focus {
@@ -234,13 +234,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
   }
   #zoologo{
-    width: 30%;
+    width: 20%;
+    float: left;
+    padding-top: 15px;
+    margin-left: 15px;
   }
   #wallet{
     width: 8%;
     float: right;
     padding-top: 10%;
-    padding-right: 5px;
+    margin-right: 15px;
   }
   #animals{
     width: 50%;
@@ -479,9 +482,9 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-/* section {
+section {
   padding: 60px 0;
-} */
+}
 
 .section-bg {
   background-color: white;
