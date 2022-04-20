@@ -203,11 +203,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 #zoologo{
   width: 10%;
+  padding-top: 7px;
 }
 #wallet{
   width: 3%;
   float: right;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 #animals{
   width: 20%;
@@ -224,6 +225,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #roadmap{
   width: 30%;
+}
+#roadmap:hover{
+  width: 35%;
 }
 #footericon{
   width: 26px;
