@@ -125,7 +125,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -158,7 +157,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
-  text-transform: none;
   font-weight: 400;
   color: #3b434a;
   letter-spacing: 1px;
@@ -223,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 #NFT{
   width: 90%;
   background: #C4C4C4;
+  margin-top: 10px;
 }
 #card{
   width: 80%;
@@ -411,7 +410,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #4A4D55;
   font-size: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   line-height: 25px;
@@ -526,7 +524,6 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #3b434a;
@@ -542,7 +539,6 @@ section {
   z-index: 1;
   font-weight: 700;
   font-size: 52px;
-  text-transform: uppercase;
   line-height: 0;
 }
 .section-title p {
@@ -623,7 +619,6 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #3b434a;
-  text-transform: uppercase;
 }
 .about .content ul {
   list-style: none;
@@ -700,7 +695,6 @@ section {
 .about .skills-content .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -725,7 +719,6 @@ section {
   margin-bottom: 50px;
   font-size: 18px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   line-height: 25px;
@@ -741,6 +734,7 @@ section {
   font-size: 50px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing:3px;
 }
 
 #about h2 {
@@ -748,7 +742,6 @@ section {
   margin-bottom: 50px;
   font-size: 16px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   line-height: 30px;
@@ -792,6 +785,7 @@ section {
   font-weight: 900;
   font-size: 50px;
   color: #fff;
+  letter-spacing:3px;
 }
 
 #resume h2 {
@@ -799,7 +793,6 @@ section {
   margin-bottom: 20px;
   font-size: 16px;
   letter-spacing: 1px;
-  text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   line-height: 30px;
@@ -883,7 +876,7 @@ section {
   position: relative;
   overflow: hidden;
   font-family: 'Mulish', sans-serif;
-  margin: 30px;
+  margin: 30px 25px;
 }
 
 .resume #noblebox{
@@ -894,12 +887,19 @@ section {
   overflow: hidden;
   font-family: 'Mulish', sans-serif;
   margin: 30px;
-
   border: #000 solid 5px;
   border-image: linear-gradient(45deg, gold, rgb(255, 134, 20)) 1;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
 
+@media (max-width: 995px) {
+  .resume #noblebox{
+    margin: 30px 50px;
+  }
+  .resume #box {
+    margin: 20px 50px;
+  }
+}
 /* .resume h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -912,7 +912,7 @@ section {
 .resume h4 {
   font-size: 24px;
   color: #08244D;
-  font-weight: 600;
+  font-weight: 1000;
   font-family: 'Mulish', sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -944,6 +944,7 @@ section {
   word-wrap: break-word; 
   word-break: normal;
   font-size: 12px;
+  text-align: left;
 }
 .resume ul i {
   color: #2B51A2;
@@ -1052,7 +1053,6 @@ section {
   line-height: 30px;
   font-size: 30px;
   font-weight: 900;
-  text-transform: uppercase;
   color: #fff;  
   text-shadow: -1px -1px 0 #2B51A2, 1px -1px 0 #2B51A2, -1px 1px 0 #2B51A2,  1px 1px 0 #2B51A2;
   margin-bottom: 10px;
@@ -1311,7 +1311,6 @@ section {
   font-weight: 600;
   line-height: 1;
   padding: 7px 10px;
-  text-transform: uppercase;
   color: #444444;
   transition: all 0.3s ease-in-out;
   border: 2px solid #fff;
