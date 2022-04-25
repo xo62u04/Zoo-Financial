@@ -211,7 +211,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 5%;
 }
 #animals{
-  width: 20%;
+  width: 25%;
+  margin:auto;
+  display:block
+}
+#attribute{
+  width: 30%;
   margin:auto;
   display:block
 }
@@ -254,8 +259,27 @@ h1, h2, h3, h4, h5, h6 {
     margin:auto;
     display:block
   }
+  #attribute{
+    width: 70%;
+    margin:auto;
+    display:block
+  }
+  #roadmap{
+    width: 20%;
+    float: left;
+    padding-left: -100px;
+    padding-bottom: 10px;
+  }
+  #roadmap:hover{
+    width: 22%;
+  }
 }
-
+@media(max-width: 600px) {
+  #card{
+    width: 50%;
+    background: #C4C4C4;
+  }
+}
 
 /**
 * Mobile Navigation 
@@ -824,8 +848,10 @@ section {
 
 #citizen h3{
   font-size: 32px;
-  text-shadow: -1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;
-  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  color: #fff;
+  /* text-shadow: -1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;
+  -webkit-text-fill-color: transparent; */
   margin-top: 20px;
 }
 #citizen a{
@@ -839,8 +865,10 @@ section {
 
 #noble h3{
   font-size: 32px;
-  text-shadow: -1px -1px 0 #FCEA58,1px -1px 0 #FCEA58,-1px 1px 0 #FCEA58,1px 1px 0 #FCEA58;
-  -webkit-text-fill-color: transparent;
+  font-weight: 1000;
+  color: #fcea58;
+  /* text-shadow: -1px -1px 0 #FCEA58,1px -1px 0 #FCEA58,-1px 1px 0 #FCEA58,1px 1px 0 #FCEA58;
+  -webkit-text-fill-color: transparent; */
   margin-top: 20px;
 }
 #noble a{
@@ -1248,6 +1276,7 @@ section {
     text-shadow: 0.05em 0.05em rgb(255, 255, 255);
     margin-bottom: 15px;
   }
+  
 }
 
 .testimonials #cardbox {
